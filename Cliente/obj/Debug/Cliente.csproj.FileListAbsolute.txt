@@ -1,0 +1,8 @@
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Cliente.exe.config
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Cliente.exe
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Cliente.pdb
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Core.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\Core.pdb
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.csprojResolveAssemblyReference.cache
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.exe
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.pdb

@@ -1,0 +1,16 @@
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\CoreTest.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\CoreTest.pdb
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\Castle.Core.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\Core.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\Moq.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\Core.pdb
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\Castle.Core.xml
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\Moq.xml
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\obj\Debug\CoreTest.csprojResolveAssemblyReference.cache
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\obj\Debug\CoreTest.dll
+c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\obj\Debug\CoreTest.pdb
