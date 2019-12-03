@@ -14,3 +14,20 @@ c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\bin\Debug
 c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\obj\Debug\CoreTest.csprojResolveAssemblyReference.cache
 c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\obj\Debug\CoreTest.dll
 c:\users\labb4\documents\visual studio 2015\Projects\MockTest\CoreTest\obj\Debug\CoreTest.pdb
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\CoreTest.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\CoreTest.pdb
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\Castle.Core.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\Core.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\Moq.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\Core.pdb
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\Castle.Core.xml
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\Moq.xml
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\obj\Debug\CoreTest.csprojResolveAssemblyReference.cache
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\obj\Debug\CoreTest.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\CoreTest\obj\Debug\CoreTest.pdb

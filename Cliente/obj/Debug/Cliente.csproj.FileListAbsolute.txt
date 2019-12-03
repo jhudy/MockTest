@@ -6,3 +6,11 @@ c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\bin\Debug\
 c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.csprojResolveAssemblyReference.cache
 c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.exe
 c:\users\labb4\documents\visual studio 2015\Projects\MockTest\Cliente\obj\Debug\Cliente.pdb
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\Cliente\bin\Debug\Cliente.exe.config
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\Cliente\obj\Debug\Cliente.exe
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\Cliente\obj\Debug\Cliente.pdb
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\Cliente\bin\Debug\Cliente.exe
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\Cliente\bin\Debug\Cliente.pdb
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\Cliente\bin\Debug\Core.dll
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\Cliente\bin\Debug\Core.pdb
+D:\Diplomado Software Testing\MODULO 3\Practice2\MockTest\Cliente\obj\Debug\Cliente.csprojResolveAssemblyReference.cache

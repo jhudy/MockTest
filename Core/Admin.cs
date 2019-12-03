@@ -27,9 +27,12 @@ namespace Core
             ListaAlumnos = serv.GetAlumnos();
             foreach (var alumno in ListaAlumnos)
             {
-                alumno.Nota = serv.GetNota(alumno.CI);
+                //alumno.Nota = serv.GetNota(alumno.CI);
+                alumno.Nota = serv.SetNota(alumno.CI);
+                alumno.Estado = serv.GetEstado(alumno.Nota);
             }
             return ListaAlumnos;
         }
+
     }
 }

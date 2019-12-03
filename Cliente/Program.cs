@@ -18,9 +18,10 @@ namespace Cliente
             {
                 admin = new Admin("jhudy", "123", serv);
                 List<Alumno> ListaNota = admin.GetNotas();
+              
                 foreach (var item in ListaNota)
                 {
-                    Console.WriteLine("CI: {0} - Nombre: {1} - Nota: {2}", item.CI, item.Nombre, item.Nota);
+                    Console.WriteLine("CI: {0} - Nombre: {1} - Nota: {2} - Estado:{3}", item.CI, item.Nombre, item.Nota, item.Estado);
 
                 }
             }
@@ -30,10 +31,6 @@ namespace Cliente
                 Console.WriteLine(ex.Message);
             }
            
-
-
-
-
             Console.WriteLine(".....");
             Console.ReadKey();
         }

@@ -16,6 +16,7 @@ namespace Core
             result.Add(new Alumno() { CI = 5678, Nombre = "Julia Aponte" });
             result.Add(new Alumno() { CI = 2345, Nombre = "Leon Gieco" });
             result.Add(new Alumno() { CI = 1234, Nombre = "Andy Barreto" });
+            result.Add(new Alumno() { CI = 500, Nombre = "Jhudy Delgadillo" });
             return result;
         }
 
@@ -32,5 +33,30 @@ namespace Core
                 throw new Exception("Token invalido");
             }
         }
+        
+        public string GetEstado(int nota)
+        {
+            string estado;
+            if (nota >= 50)
+            {
+                estado = "Aprobado";
+            }
+            else
+            {
+                estado =  "Reprobado";
+            }
+            return estado;
+        }
+
+        public int SetNota (int CI)
+        {
+            int nota = GetNota(CI);
+            if (CI == 500)
+            {
+                nota = 0;
+            }
+            return nota;
+        }
+
     }
 }
