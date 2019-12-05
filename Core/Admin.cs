@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,8 +28,7 @@ namespace Core
             ListaAlumnos = serv.GetAlumnos();
             foreach (var alumno in ListaAlumnos)
             {
-                //alumno.Nota = serv.GetNota(alumno.CI);
-                alumno.Nota = serv.SetNota(alumno.CI);
+                alumno.Nota = serv.GetNota(alumno.CI);
                 alumno.Estado = serv.GetEstado(alumno.Nota);
             }
             return ListaAlumnos;

@@ -21,7 +21,7 @@ namespace Cliente
               
                 foreach (var item in ListaNota)
                 {
-                    Console.WriteLine("CI: {0} - Nombre: {1} - Nota: {2} - Estado:{3}", item.CI, item.Nombre, item.Nota, item.Estado);
+                    Console.WriteLine("CI: {0} - Nombre: {1} - Nota: {2} - Estado: {3}", item.CI, item.Nombre, item.Nota, item.Estado);
 
                 }
             }

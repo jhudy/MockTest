@@ -12,6 +12,5 @@ namespace Core
         List<Alumno> GetAlumnos();
         int GetNota(int CI);
         string GetEstado(int nota);
-        int SetNota(int CI);
     }
 }

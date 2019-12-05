@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,7 +23,16 @@ namespace Core
 
         public int GetNota(int CI)
         {
-            int nota = rmd.Next(1, 100);
+            int nota;
+            if (CI == 500)
+            {
+                nota = 0;
+            }
+            else
+            {
+                nota = rmd.Next(1, 100);
+            }
+            Debug.WriteLine("GetNota:" + nota);
             return nota;
         }
 
@@ -46,16 +56,6 @@ namespace Core
                 estado =  "Reprobado";
             }
             return estado;
-        }
-
-        public int SetNota (int CI)
-        {
-            int nota = GetNota(CI);
-            if (CI == 500)
-            {
-                nota = 0;
-            }
-            return nota;
         }
 
     }

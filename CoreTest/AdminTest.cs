@@ -33,7 +33,7 @@ namespace CoreTest
         }
 
         [TestMethod]
-        public void GetNotastest()
+        public void GetNotas_test()
         {
             List<Alumno> ListaAlumnos = new List<Alumno>();
             ListaAlumnos.Add(new Alumno() { CI = 123, Nombre = "juan" });
@@ -41,9 +41,36 @@ namespace CoreTest
 
             Mock<IServicio> mockServicio = new Mock<IServicio>();
             mockServicio.Setup(g => g.GetAlumnos()).Returns(ListaAlumnos);
-            mockServicio.Setup(n => n.SetNota(It.IsAny<int>())).Returns(50);
+            mockServicio.Setup(n => n.GetNota(It.IsAny<int>())).Returns(50);
             Admin admin = new Admin("aa", "11", mockServicio.Object);
             Assert.AreEqual(50, admin.GetNotas()[0].Nota);
+        }
+
+        [TestMethod]
+        public void GetEstado_test()
+        {
+            List<Alumno> ListaAlumnos = new List<Alumno>();
+            ListaAlumnos.Add(new Alumno() { CI = 123, Nombre = "juan" });
+            ListaAlumnos.Add(new Alumno() { CI = 234, Nombre = "maria" });
+
+            Mock<IServicio> mockServicio = new Mock<IServicio>();
+            mockServicio.Setup(g => g.GetAlumnos()).Returns(ListaAlumnos);
+            mockServicio.Setup(m => m.GetEstado(It.IsAny<int>())).Returns("Aprobado");
+            Admin admin = new Admin("aa", "11", mockServicio.Object);
+            Assert.AreEqual("Aprobado", admin.GetNotas()[0].Estado);
+        }
+
+        [TestMethod]
+        public void SetNota_test()
+        {
+            List<Alumno> ListaAlumnos = new List<Alumno>();
+            ListaAlumnos.Add(new Alumno() { CI = 500, Nombre = "juan"});
+
+            Mock<IServicio> mockServicio = new Mock<IServicio>();
+            mockServicio.Setup(g => g.GetAlumnos()).Returns(ListaAlumnos);
+            mockServicio.Setup(m => m.GetNota(It.IsAny<int>())).Returns(0);
+            Admin admin = new Admin("aa", "11", mockServicio.Object);
+            Assert.AreEqual(0, admin.GetNotas()[0].Nota);
         }
     }
 }
